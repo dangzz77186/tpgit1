@@ -1,0 +1,15 @@
+je m'occupe de la partie mobile.css
+
+mkdir b1cs3
+cd b1cs3
+git init
+git remote add origin "https://github.com/dangzz77186/controle-git.git"
+
+git add riri.txt
+
+git config user.name "Ryshinobi"
+git config user.email "rayanriri92@yahoo.fr"
+
+git commit -m "premier commit; document recap"
+
+git push -u origin master
