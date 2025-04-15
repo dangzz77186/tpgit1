@@ -1,0 +1,54 @@
+Commande en GIT utilisé étape par étape :
+ 
+git init
+ 
+git remote add origin "https://github.com/dangzz77186/controle-git.git"
+ 
+ 
+git add style.css
+ 
+git commit -m "premier commit du css"
+ 
+git branch YWEN
+ 
+git push -u origin YWEN
+ 
+# Modification du html pour la finalisation
+ 
+git merge dangluan
+ 
+ 
+nano index.html
+ 
+# J'ai  modifé le contenu dans la NAV et dans le MAIN
+ 
+git checkout master
+ 
+# je fais un git branch pour voir si je suis dans la branche master
+
+git branch
+ 
+git merge YWEN
+ 
+git config user.email "ywen0606@gmail.com"
+
+git config user.name "NeloxZouk"
+ 
+git commit -m "COMMIT finale DU index"
+ 
+git push -u origin master
+ 
+# étape pour merge le css dans le master et push le README MASSON
+ 
+git checkout master git merge YWEN
+ 
+git add style.css
+
+git commit -m "Commit finale du css"
+ 
+git push -u origin master
+ 
+git add MASSON.txt
+ 
+git commit -m "README DE YWEN"
+ 
